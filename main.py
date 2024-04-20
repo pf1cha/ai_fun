@@ -3,11 +3,11 @@ import supervision as sv
 import numpy as np
 
 # Path for video
-VIDEO_PATH = 'video_3.mp4'
+VIDEO_PATH = 'video path'
 # Path for result
-SAVE_PATH = 'v9result' + VIDEO_PATH[6] + '.mp4'
+SAVE_PATH = 'results path'
 # Load the model YOLOv9
-model = YOLO('yolov9c.pt')
+model = YOLO('version of YOLO')
 # Initialize all annotators
 round_box_annotator = sv.RoundBoxAnnotator(
     color=sv.ColorPalette.ROBOFLOW,
